@@ -131,3 +131,8 @@ footer a {
 footer a:hover {
     color: #f1f1e2;
 }
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
