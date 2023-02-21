@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+    background: #fffff7;
+    font-family: "calibri", sans-serif;
+    /* font-size: 1rem; */
+    font-size: 15px;
+    margin: 0;
+}
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: end;
+    column-gap: 15px;
+    margin: 0;
+    background-color: black;
+    margin-bottom: 24px;
+    box-shadow: 0 0 .8em rgba(0,0,0,.15);
+    padding: 3px 2.5vw;
+    padding-top: 4px;
+}
+
+.header h1 {
+    text-align: right;
+    font-size: 17px;
+    align-self: end;
+    margin: 0;
+    color: #fffff7;
+}
+
+.header .translator {
+    font-style: italic;
+    grid-column: 1;
+    align-self: start;
+    color: #fffff7;
+}
+
+.header .linktohomepage, .linktohomepage a {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    /* line-height: 0; */
+    align-self: center;
+    text-decoration: none;
+    font-size: 48px;
+    color: #fffff7;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 4px;
+    user-select: none;
+}
+
+.mainText {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: column;
+    margin: auto;
+    max-width: 1000px;
+    padding-left: 26px;
+    padding-right: 10px;
+    line-height: calc(1.2em + .1vw);
+    margin-bottom: 8px;
+    padding-top: 12px;
+    }
+
+p, h2, h3, h4, h5, h6 {
+    text-align: left; /* Не знаю что выбрать */
+    padding: 0 1vw 4px 10px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    border-bottom: 1px solid;
+    grid-column: 1;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+h4, h5, h6 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.epigraph {
+    text-align: right;
+}
+
+.dichtung {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.endOfColumn1 ~ * {
+    grid-column: 2;
+}
+
+.endOfColumn {
+    border-bottom: none;
+}
+
+footer p {
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    margin-bottom: 0;
+    /* font-size: 0.95rem; */
+    color: #fffff7;
+    padding: 5px;
+}
+
+a {
+    color: #fffff7;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #f1f1e2;
+}
