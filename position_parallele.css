@@ -116,10 +116,10 @@ footer p {
     bottom: 0;
     text-align: center;
     margin: auto;
-    background-color: black;
+    background-color: rgb(55, 55, 55);
     margin-bottom: 0;
     /* font-size: 0.95rem; */
-    color: #fffff7;
+    color: black;
     padding: 5px;
 }
 
