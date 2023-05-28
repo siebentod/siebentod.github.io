@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background: #fffff7;
     font-family: "calibri", sans-serif;
@@ -12,6 +17,53 @@ body {
     margin: 0;
 }
 
+.mainText {
+    display: grid;
+    grid-auto-flow: column;
+    margin: auto;
+    max-width: 1000px;
+    padding-left: 26px;
+    padding-right: 10px;
+    line-height: calc(1.2em + .1vw);
+    margin-bottom: 8px;
+    padding-top: 12px;
+    }
+
+p, h2, h3, h4, h5, h6 {
+    text-align: left; /* Не знаю что выбрать */
+    padding: 0 1vw 4px 10px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    border-bottom: 1px solid;
+    grid-column: 1;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+h4, h5, h6 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+a {
+    color: #fffff7;
+}
+
+:root {
+    --hover-color: rgb(74, 74, 74);
+}
+
+/* header&footer */
 .header {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -53,53 +105,26 @@ body {
     user-select: none;
 }
 
-.mainText {
-    display: grid;
-    grid-auto-flow: column;
+footer p {
+    bottom: 0;
+    text-align: center;
     margin: auto;
-    max-width: 1000px;
-    padding-left: 26px;
-    padding-right: 10px;
-    line-height: calc(1.2em + .1vw);
-    margin-bottom: 8px;
-    padding-top: 12px;
-    }
-
-p, h2, h3, h4, h5, h6 {
-    text-align: left; /* Не знаю что выбрать */
-    padding: 0 1vw 4px 10px;
-    margin-top: 1px;
-    margin-bottom: 2px;
-    border-bottom: 1px solid;
-    grid-column: 1;
+    background-color: rgb(55, 55, 55);
+    margin-bottom: 0;
+    /* font-size: 0.95rem; */
+    color: black;
+    padding: 5px;
 }
 
-h2 {
-    font-size: 1.3rem;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    text-align: center;
+footer a {
+    text-decoration: underline;
 }
 
-h3 {
-    font-size: 1.1rem;
-    text-align: center;
+footer a:hover {
+    color: #f1f1e2;
 }
 
-h4, h5, h6 {
-    font-size: 1rem;
-    text-align: center;
-}
-
-.epigraph {
-    text-align: right;
-}
-
-.dichtung {
-    padding-bottom: 0;
-    border-bottom: none;
-}
-
+/* magicTrick */
 .endOfColumn1 ~ * {
     grid-column: 2;
 }
@@ -112,38 +137,22 @@ h4, h5, h6 {
     border-bottom: none;
 }
 
-footer p {
-    bottom: 0;
-    text-align: center;
-    margin: auto;
-    background-color: rgb(55, 55, 55);
-    margin-bottom: 0;
-    /* font-size: 0.95rem; */
-    color: black;
-    padding: 5px;
+/* special text */
+.epigraph {
+    text-align: right;
 }
 
-a {
-    color: #fffff7;
+.dichtung {
+    padding-bottom: 0;
+    border-bottom: none;
 }
 
-footer a {
-    text-decoration: underline;
+.poetryBlank {
+    display:block;
+    margin-bottom: .4rem;
 }
 
-footer a:hover {
-    color: #f1f1e2;
-}
-
-html, body {
-    width: 100%;
-    overflow-x: hidden;
-}
-
-:root {
-    --hover-color: rgb(74, 74, 74);
-}
-
+/* toc */
 .toc {
     display: inline-block;
     position: fixed;
@@ -258,15 +267,30 @@ html, body {
     display: none;
 }
 
-.pop-up-text {
+/* annotations
+.annotations {
+    
+} */
+
+.pop-up a {
     position: relative;
     display: inline;
     cursor: pointer;
     color: rgb(49, 49, 49);
     text-decoration: underline;
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.pop-up a:hover {
+    color: var(--hover-color);
+}
+
+.pop-up:hover .pop-up-text {
+    display: block;
 }
   
-.pop-up {
+.pop-up-text {
     line-height: 1.3;
     font-size: 0.813rem;
     width: max-content;
@@ -281,11 +305,15 @@ html, body {
     text-align: left;
 }
 
-.pop-up-text:hover .pop-up {
-    display: block;
+.annoContent {
+    background-color: #f5f5db
 }
 
-.poetryBlank {
-    display:block;
-    margin-bottom: .4rem;
+
+.annoContent a {
+    color: rgb(49, 49, 49);
+}
+
+.annoContent a:hover {
+    color: var(--hover-color);
 }
