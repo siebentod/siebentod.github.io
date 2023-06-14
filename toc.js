@@ -1,7 +1,7 @@
 function floatingToc() {
   let tocButton = document.getElementById("tocButton");
   tocButton.addEventListener("click", function(){
-    let customToc = document.getElementById("firstToc");
+    let customToc = document.getElementById("tocContent");
     if (customToc.style.display === "none") {
       customToc.style.display = "inline-block";
     } else {

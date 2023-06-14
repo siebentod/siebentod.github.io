@@ -1,270 +1,285 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
-    background: #fffff7;
-    font-family: "calibri", sans-serif;
-    /* font-size: 1rem; */
-    font-size: 0.938rem;
-    margin: 0;
+  background: #fffff7;
+  font-family: "calibri", sans-serif;
+  /* font-size: 1rem; */
+  font-size: 0.938rem;
+  margin: 0;
 }
 
 .mainText {
-    display: grid;
-    grid-auto-flow: column;
-    margin: auto;
-    max-width: 1000px;
-    padding-left: 26px;
-    padding-right: 10px;
-    line-height: calc(1.2em + .1vw);
-    margin-bottom: 8px;
-    padding-top: 12px;
-    }
+  display: grid;
+  grid-auto-flow: column;
+  margin: auto;
+  max-width: 1000px;
+  padding-left: 26px;
+  padding-right: 10px;
+  line-height: calc(1.2em + 0.1vw);
+  margin-bottom: 8px;
+  padding-top: 12px;
+}
 
-p, h2, h3, h4, h5, h6 {
-    text-align: left; /* Не знаю что выбрать */
-    padding: 0 1vw 4px 10px;
-    margin-top: 1px;
-    margin-bottom: 2px;
-    border-bottom: 1px solid;
-    grid-column: 1;
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: left; /* Не знаю что выбрать */
+  padding: 0 1vw 4px 10px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  border-bottom: 1px solid;
+  grid-column: 1;
 }
 
 h2 {
-    font-size: 1.3rem;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    text-align: center;
+  font-size: 1.3rem;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-align: center;
 }
 
 h3 {
-    font-size: 1.1rem;
-    text-align: center;
+  font-size: 1.1rem;
+  text-align: center;
 }
 
-h4, h5, h6 {
-    font-size: 1rem;
-    text-align: center;
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  text-align: center;
 }
 
 a {
-    color: #fffff7;
+  color: #fffff7;
 }
 
 :root {
-    --hover-color: rgb(74, 74, 74);
+  --hover-color: rgb(74, 74, 74);
 }
 
 /* header&footer */
 .header {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-content: end;
-    column-gap: 15px;
-    margin: 0;
-    background-color: black;
-    margin-bottom: 24px;
-    box-shadow: 0 0 .8em rgba(0,0,0,.15);
-    padding: 3px 2.5vw;
-    padding-top: 4px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: end;
+  column-gap: 15px;
+  margin: 0;
+  background-color: black;
+  margin-bottom: 24px;
+  box-shadow: 0 0 0.8em rgba(0, 0, 0, 0.15);
+  padding: 3px 2.5vw;
+  padding-top: 4px;
 }
 
 .header h1 {
-    text-align: right;
-    font-size: 1.063rem;
-    align-self: end;
-    margin: 0;
-    color: #fffff7;
+  text-align: right;
+  font-size: 1.063rem;
+  align-self: end;
+  margin: 0;
+  color: #fffff7;
 }
 
 .header .translator {
-    font-style: italic;
-    grid-column: 1;
-    align-self: start;
-    color: #fffff7;
+  font-style: italic;
+  grid-column: 1;
+  align-self: start;
+  color: #fffff7;
 }
 
-.header .linktohomepage, .linktohomepage a {
-    grid-column: 2;
-    grid-row: 1 / 3;
-    /* line-height: 0; */
-    align-self: center;
-    text-decoration: none;
-    font-size: 3rem;
-    color: #fffff7;
-    font-family: 'Times New Roman', Times, serif;
-    padding-bottom: 4px;
-    user-select: none;
+.header .linktohomepage,
+.linktohomepage a {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  /* line-height: 0; */
+  align-self: center;
+  text-decoration: none;
+  font-size: 3rem;
+  color: #fffff7;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 4px;
+  user-select: none;
 }
 
 footer p {
-    bottom: 0;
-    text-align: center;
-    margin: auto;
-    background-color: rgb(55, 55, 55);
-    margin-bottom: 0;
-    /* font-size: 0.95rem; */
-    color: black;
-    padding: 5px;
+  bottom: 0;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(55, 55, 55);
+  margin-bottom: 0;
+  /* font-size: 0.95rem; */
+  color: black;
+  padding: 5px;
 }
 
 footer a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer a:hover {
-    color: #f1f1e2;
+  color: #f1f1e2;
 }
 
 /* magicTrick */
 .endOfColumn1 ~ * {
-    grid-column: 2;
+  grid-column: 2;
 }
 
 .endOfColumn2 ~ * {
-    grid-column: 3;
+  grid-column: 3;
 }
 
 .endOfColumn {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 /* special text */
 .epigraph {
-    text-align: right;
+  text-align: right;
 }
 
 .dichtung {
-    padding-bottom: 0;
-    border-bottom: none;
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
-.poetryBlank {
-    display:block;
-    margin-bottom: .4rem;
+.span-indented {
+  display: block;
+  padding-left: calc(14px + 0.7vw);
+}
+
+.bigBlank {
+  display: block;
+  margin-bottom: 0.4rem;
 }
 
 /* toc */
 .toc {
-    display: inline-block;
-    position: fixed;
-    /* top: 80px; */
-    top: calc(11px + 8vh);
-    background-color: #fffff7;
-    left: 0;
-    overflow: auto;
-    max-width: calc(170px + 9vw); /*Проверить на мобильнике */
-    max-height: 85vh;
-    border: 1px solid #ccc;
-    border-radius: 16px;
-    border-left: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 7px 10px 7px 7px;
+  display: inline-block;
+  position: fixed;
+  /* top: 80px; */
+  top: calc(11px + 8vh);
+  background-color: #fffff7;
+  left: 0;
+  overflow: auto;
+  max-width: calc(170px + 9vw); /*Проверить на мобильнике */
+  max-height: 85vh;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 7px 10px 7px 7px;
 }
 
-.toc ul, li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.toc ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .toc li {
-/* padding-right: 2px; */
-    padding-left: 2px;
+  /* padding-right: 2px; */
+  padding-left: 2px;
 }
 
 .toc li li {
-    padding-left: 11.33px;
+  padding-left: 11.33px;
 }
 
 .toc a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .toc a:hover {
-    color: var(--hover-color);
-    text-decoration: underline;
+  color: var(--hover-color);
+  text-decoration: underline;
 }
 
 #tocButton i {
-    width: calc(7px + .7vw);
-    height: calc(7px + .7vw);
-    border-radius: 50%;
-    padding: calc(7px + .7vw);
-    left: .9vw;
-    top: 1.69vh;
-    background-color: black;
-    color: #fffff7;
-    position: fixed;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    font-size: 0.813rem;
-    text-align: center;
-    justify-content: center;
-    /* Можно заменить viewport на % (потому что это fixed, нет parent)? */
+  width: calc(7px + 0.7vw);
+  height: calc(7px + 0.7vw);
+  border-radius: 50%;
+  padding: calc(7px + 0.7vw);
+  left: 0.9vw;
+  top: 1.69vh;
+  background-color: black;
+  color: #fffff7;
+  position: fixed;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 0.813rem;
+  text-align: center;
+  justify-content: center;
+  /* Можно заменить viewport на % (потому что это fixed, нет parent)? */
 }
 
 #tocButton i:hover {
-    background-color: var(--hover-color);
-    color: #ffffff;
+  background-color: var(--hover-color);
+  color: #ffffff;
 }
 
 #tocButton i:active {
-    background-color: var(--hover-color);
-    color: #000000;
+  background-color: var(--hover-color);
+  color: #000000;
 }
 
 /* tree-toc */
 .caret {
-    cursor: pointer;
-    user-select: none;
+  cursor: pointer;
+  user-select: none;
 }
 
 .caret::before {
-    content: "\25B6";
-    color: black;
-    display: inline-block;
-    font-size: 12px;
-    margin-right: 1px;
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 1px;
 }
 
 .caret-down::before {
-    transform: rotate(90deg);  
+  transform: rotate(90deg);
 }
 
 .caret:hover::before {
-    color: var(--hover-color);
+  color: var(--hover-color);
 }
 
 .nested {
-    display: none;
+  display: none;
 }
 
 .active {
-    display: block;
+  display: block;
 }
 
 .hide ~ * {
-    display: none;
+  display: none;
 }
 
 .show ~ * {
-    display: block;
+  display: block;
 }
 
 .hideFurther ~ * {
-    display: none;
+  display: none;
 }
 
 /* annotations
@@ -273,47 +288,46 @@ footer a:hover {
 } */
 
 .pop-up a {
-    position: relative;
-    display: inline;
-    cursor: pointer;
-    color: rgb(49, 49, 49);
-    text-decoration: underline;
-    vertical-align: super;
-    font-size: smaller;
+  position: relative;
+  display: inline;
+  cursor: pointer;
+  color: rgb(49, 49, 49);
+  text-decoration: underline;
+  vertical-align: super;
+  font-size: smaller;
 }
 
 .pop-up a:hover {
-    color: var(--hover-color);
+  color: var(--hover-color);
 }
 
 .pop-up:hover .pop-up-text {
-    display: block;
+  display: block;
 }
-  
+
 .pop-up-text {
-    line-height: 1.3;
-    font-size: 0.813rem;
-    width: max-content;
-    max-width: 30vw;
-    background-color: white;
-    position: absolute;
-    border: 2px solid black;
-    padding: 5px 10px;
-    display: none;
-    color: black;
-    font-weight: normal;
-    text-align: left;
+  line-height: 1.3;
+  font-size: 0.813rem;
+  width: max-content;
+  max-width: 30vw;
+  background-color: white;
+  position: absolute;
+  border: 2px solid black;
+  padding: 5px 10px;
+  display: none;
+  color: black;
+  font-weight: normal;
+  text-align: left;
 }
 
 .annoContent {
-    background-color: #f5f5db
+  background-color: #f5f5db;
 }
 
-
 .annoContent a {
-    color: rgb(49, 49, 49);
+  color: rgb(49, 49, 49);
 }
 
 .annoContent a:hover {
-    color: var(--hover-color);
+  color: var(--hover-color);
 }

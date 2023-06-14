@@ -20,7 +20,8 @@
   padding: 7px 10px 7px 7px;
 }
 
-.toc ul, li {
+.toc ul,
+li {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -46,11 +47,11 @@
 }
 
 #tocButton i {
-  width: calc(7px + .7vw);
-  height: calc(7px + .7vw);
+  width: calc(7px + 0.7vw);
+  height: calc(7px + 0.7vw);
   border-radius: 50%;
-  padding: calc(7px + .7vw);
-  left: .9vw;
+  padding: calc(7px + 0.7vw);
+  left: 0.9vw;
   top: 1.69vh;
   background-color: black;
   color: #fffff7;
@@ -89,7 +90,7 @@
 }
 
 .caret-down::before {
-  transform: rotate(90deg);  
+  transform: rotate(90deg);
 }
 
 .caret:hover::before {
