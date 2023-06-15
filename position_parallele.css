@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-html,
+/* html,
 body {
   width: 100%;
   overflow-x: hidden;
-}
+} */
 
 body {
   background: #fffff7;
