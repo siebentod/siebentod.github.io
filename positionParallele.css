@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --hover-color: rgb(74, 74, 74);
+}
+
 /* html,
 body {
   width: 100%;
@@ -65,10 +69,6 @@ h6 {
 
 a {
   color: #fffff7;
-}
-
-:root {
-  --hover-color: rgb(74, 74, 74);
 }
 
 /* header&footer */
@@ -164,122 +164,6 @@ footer a:hover {
 .bigBlank {
   display: block;
   margin-bottom: 0.4rem;
-}
-
-/* toc */
-.toc {
-  display: inline-block;
-  position: fixed;
-  /* top: 80px; */
-  top: calc(11px + 8vh);
-  background-color: #fffff7;
-  left: 0;
-  overflow: auto;
-  max-width: calc(170px + 9vw); /*Проверить на мобильнике */
-  max-height: 85vh;
-  border: 1px solid #ccc;
-  border-radius: 16px;
-  border-left: none;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding: 7px 10px 7px 7px;
-}
-
-.toc ul,
-li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.toc li {
-  /* padding-right: 2px; */
-  padding-left: 2px;
-}
-
-.toc li li {
-  padding-left: 11.33px;
-}
-
-.toc a {
-  color: black;
-  text-decoration: none;
-}
-
-.toc a:hover {
-  color: var(--hover-color);
-  text-decoration: underline;
-}
-
-#tocButton i {
-  width: calc(7px + 0.7vw);
-  height: calc(7px + 0.7vw);
-  border-radius: 50%;
-  padding: calc(7px + 0.7vw);
-  left: 0.9vw;
-  top: 1.69vh;
-  background-color: black;
-  color: #fffff7;
-  position: fixed;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  font-size: 0.813rem;
-  text-align: center;
-  justify-content: center;
-  /* Можно заменить viewport на % (потому что это fixed, нет parent)? */
-}
-
-#tocButton i:hover {
-  background-color: var(--hover-color);
-  color: #ffffff;
-}
-
-#tocButton i:active {
-  background-color: var(--hover-color);
-  color: #000000;
-}
-
-/* tree-toc */
-.caret {
-  cursor: pointer;
-  user-select: none;
-}
-
-.caret::before {
-  content: "\25B6";
-  color: black;
-  display: inline-block;
-  font-size: 12px;
-  margin-right: 1px;
-}
-
-.caret-down::before {
-  transform: rotate(90deg);
-}
-
-.caret:hover::before {
-  color: var(--hover-color);
-}
-
-.nested {
-  display: none;
-}
-
-.active {
-  display: block;
-}
-
-.hide ~ * {
-  display: none;
-}
-
-.show ~ * {
-  display: block;
-}
-
-.hideFurther ~ * {
-  display: none;
 }
 
 /* annotations
