@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --hover-color: rgb(74, 74, 74);
-}
-
 /* html,
 body {
   width: 100%;
@@ -26,12 +22,16 @@ body {
   display: grid;
   grid-auto-flow: column;
   margin: auto;
-  max-width: 1000px;
+  max-width: calc(830px + 8vw);
   padding-left: 26px;
   padding-right: 10px;
   line-height: calc(1.2em + 0.1vw);
   margin-bottom: 8px;
   padding-top: 12px;
+}
+
+img {
+  max-width: 25vw;
 }
 
 p,
@@ -69,6 +69,10 @@ h6 {
 
 a {
   color: #fffff7;
+}
+
+:root {
+  --hover-color: rgb(74, 74, 74);
 }
 
 /* header&footer */
