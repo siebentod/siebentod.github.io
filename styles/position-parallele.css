@@ -150,6 +150,9 @@ footer a:hover {
   border-bottom: none;
 }
 
+/* .mainText *:not(.endOfColumn ~ *) {
+} */
+
 /* special text */
 .epigraph {
   text-align: right;
@@ -158,6 +161,10 @@ footer a:hover {
 .dichtung {
   padding-bottom: 0;
   border-bottom: none;
+}
+
+.verses {
+  white-space: pre-line;
 }
 
 .span-indented {
