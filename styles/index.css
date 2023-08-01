@@ -36,7 +36,7 @@ section {
   margin: 0 1% 0 1%;
   font-size: 1rem;
   background-color: #97977a;
-  padding: 1rem;
+  padding: 2rem;
   border: 1rem solid #272727;
   flex: 1;
   max-width: 30rem;
@@ -74,14 +74,17 @@ li {
   text-align: left;
 }
 
-footer {
+footer p {
+  bottom: 0;
   text-align: center;
   font-size: 0.9rem;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(55, 55, 55);
+  margin: auto;
+  background-color: black;
+  margin-bottom: 0;
+  /* font-size: 0.95rem; */
+  color: black;
+  padding: 5px;
+  color: rgb(55, 55, 55);
 }
 
 a {
@@ -90,11 +93,11 @@ a {
 }
 
 div *:not(.mainTitle) a:hover {
-  color: #171717;
+  color: rgb(55, 55, 55);
 }
 
 footer a:hover {
-  color: #171717;
+  color: rgb(55, 55, 55);
 }
 
 .pop-up {

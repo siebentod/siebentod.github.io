@@ -14,7 +14,7 @@ body {
   background: #fffff7;
   font-family: "calibri", sans-serif;
   /* font-size: 1rem; */
-  font-size: 0.938rem;
+  font-size: 0.875rem;
   margin: 0;
 }
 
@@ -72,7 +72,7 @@ a {
 }
 
 :root {
-  --hover-color: rgb(74, 74, 74);
+  --hover-color: rgb(55, 55, 55);
 }
 
 /* header&footer */
@@ -121,20 +121,22 @@ a {
 footer p {
   bottom: 0;
   text-align: center;
+  font-size: 0.9rem;
   margin: auto;
-  background-color: rgb(55, 55, 55);
+  background-color: black;
   margin-bottom: 0;
   /* font-size: 0.95rem; */
   color: black;
   padding: 5px;
+  color: rgb(55, 55, 55);
 }
 
 footer a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 footer a:hover {
-  color: #f1f1e2;
+  color: rgb(55, 55, 55);
 }
 
 /* magicTrick */
