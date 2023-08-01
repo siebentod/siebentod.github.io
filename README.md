@@ -1,3 +1,3 @@
 # Hallo Hinterwelt
  
-[Link to the Website](https://siebentod.github.io/ap/)
+[Link to the Website](https://siebentod.github.io/)
