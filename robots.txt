@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /zarathustra1990.html
+Disallow: /zarathustra2007.html
+Disallow: /about.html
