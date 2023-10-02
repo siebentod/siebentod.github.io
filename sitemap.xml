@@ -3,17 +3,7 @@
 	<url>
 		<loc>https://www.siebentod.github.io</loc>
 		<priority>1.00</priority>
-		<lastmod>2023-08-01</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/zarathustra2007.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-08-01</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/zarathustra1990.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-08-01</lastmod>
+		<lastmod>2023-10-02</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/zarathustra.html</loc>
@@ -31,6 +21,11 @@
 		<lastmod>2023-08-01</lastmod>
 	</url>
 	<url>
+		<loc>https://www.siebentod.github.io/plato-theaetetus.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-09-30</lastmod>
+	</url>
+	<url>
 		<loc>https://www.siebentod.github.io/plato-politeia1.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-08-01</lastmod>
@@ -38,7 +33,7 @@
 	<url>
 		<loc>https://www.siebentod.github.io/plato-philebus.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-08-01</lastmod>
+		<lastmod>2023-09-30</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/plato-phaedrus.html</loc>
@@ -49,6 +44,16 @@
 		<loc>https://www.siebentod.github.io/plato-gorgias.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-08-01</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-crito.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-09-30</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-critias.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-09-30</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/parmenides.html</loc>
@@ -68,6 +73,6 @@
 	<url>
 		<loc>https://www.siebentod.github.io/about.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-08-01</lastmod>
+		<lastmod>2023-09-28</lastmod>
 	</url>
 </urlset>

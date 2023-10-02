@@ -8,7 +8,8 @@ function translChange() {
         unBoldAll();
         document.getElementById("chooseRu").dataset.selected = true;
         //change text in header
-        document.querySelector(".translator").innerHTML = "Перевод H.В. Самсонова";
+        let ruTranslator = document.querySelector('[data-translation="ru"]');
+        document.querySelector(".translator").innerHTML = ruTranslator.innerHTML;
     });
     
     let showEn = document.getElementById("chooseEn");
@@ -21,7 +22,8 @@ function translChange() {
         unBoldAll();
         document.getElementById("chooseEn").dataset.selected = true;
         //change text in header
-        document.querySelector(".translator").innerHTML = "Перевод Harold N. Fowler";
+        let enTranslator = document.querySelector('[data-translation="en"]');
+        document.querySelector(".translator").innerHTML = enTranslator.innerHTML;
     });
   }
 
