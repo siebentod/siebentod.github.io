@@ -28,6 +28,7 @@
     border-bottom-left-radius: 0;
     padding: 7px 10px 7px 7px;
     font-size: 0.8rem;
+    line-height: 1;
   }
   
   .toc ul,
@@ -40,10 +41,12 @@
   .toc li {
     /* padding-right: 2px; */
     padding-left: 2px;
+    padding-top: 3px;
   }
   
   .toc li li {
     padding-left: 11.33px;
+    padding-top: 2px;
   }
   
   .toc a {

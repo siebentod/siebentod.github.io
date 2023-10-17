@@ -74,7 +74,7 @@ function translChange() {
         //change translation
         clearEndsOfColumns();
         document.querySelector(".endOfColumn2").classList.add("hide");
-        document.querySelector(".endOfDyn").classList.add("hide");
+        // document.querySelector(".endOfDyn").classList.add("hide");
         document.querySelector(".endOfLeb").classList.add("show");
         //boldness
         unBoldAll();
