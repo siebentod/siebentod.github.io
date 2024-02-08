@@ -17,7 +17,7 @@ function getFirstVisible() {
         firstOffY = offY;
       }
     }
-    console.log(first.outerHTML);
+    // console.log(first.outerHTML);
     return first;
   }
 
