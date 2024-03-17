@@ -3,7 +3,7 @@
 	<url>
 		<loc>https://www.siebentod.github.io</loc>
 		<priority>1.00</priority>
-		<lastmod>2023-10-27</lastmod>
+		<lastmod>2024-03-17</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/zarathustra2007.html</loc>
@@ -33,7 +33,12 @@
 	<url>
 		<loc>https://www.siebentod.github.io/plato-theaetetus.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-12-27</lastmod>
+		<lastmod>2024-02-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-sophistes.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-03-17</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/plato-politeia1.html</loc>
