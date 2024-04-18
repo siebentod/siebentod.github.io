@@ -19,7 +19,8 @@
     background-color: #fffff7;
     left: 0;
     overflow: auto;
-    max-width: calc(70px + 9vw); /*Проверить на мобильнике */
+    resize: horizontal;
+    width: calc(70px + 9vw); /*Проверить на мобильнике */
     max-height: 85vh;
     border: 1px solid #ccc;
     border-radius: 16px;
