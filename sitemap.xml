@@ -3,22 +3,22 @@
 	<url>
 		<loc>https://www.siebentod.github.io</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-04-13</lastmod>
+		<lastmod>2024-04-21</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/zarathustra2007.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-10-22</lastmod>
+		<lastmod>2024-04-18</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/zarathustra1990.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-10-22</lastmod>
+		<lastmod>2024-04-18</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/zarathustra.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-12-16</lastmod>
+		<lastmod>2024-04-18</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/werdenktabstract.html</loc>
@@ -28,12 +28,17 @@
 	<url>
 		<loc>https://www.siebentod.github.io/plato-timaeus.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-02-08</lastmod>
+		<lastmod>2024-04-15</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/plato-theaetetus.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-04-12</lastmod>
+		<lastmod>2024-04-18</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-symposium.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-04-21</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/plato-sophistes.html</loc>

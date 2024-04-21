@@ -30,6 +30,10 @@ body {
   padding-top: 12px;
 }
 
+.mainText p {
+  text-indent: 3% each-line;
+}
+
 img {
   max-width: 25vw;
 }
@@ -171,7 +175,7 @@ footer a:hover {
 
 .span-indented {
   display: block;
-  padding-left: calc(14px + 0.7vw);
+  text-indent: 5% each-line;
 }
 
 .bigBlank {
