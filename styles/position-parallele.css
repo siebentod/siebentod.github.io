@@ -143,6 +143,10 @@ footer a:hover {
   color: rgb(55, 55, 55);
 }
 
+div a:hover {
+  color: rgb(55, 55, 55);
+}
+
 /* magicTrick */
 .endOfColumn1 ~ * {
   grid-column: 2;
