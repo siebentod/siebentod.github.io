@@ -35,15 +35,15 @@ i.fa-solid {
 }
 
 .mainText h2 {
-  background-color: rgb(174, 0, 0);
+  background-color: rgb(160, 110, 110);
   padding-top: 2px;
-  box-shadow: 0 0 5px black;
+  box-shadow: 0 0 6px rgb(43, 0, 0);
 }
 
 section {
   margin: 0 1% 0 1%;
   font-size: 1rem;
-  background-color: #650000;
+  background-color: rgb(111, 0, 37);
   padding: 1rem;
   border: 1rem solid black;
   flex: 1;
