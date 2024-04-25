@@ -3,7 +3,7 @@
 	<url>
 		<loc>https://www.siebentod.github.io</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-04-22</lastmod>
+		<lastmod>2024-04-25</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/zarathustra2007.html</loc>
@@ -33,7 +33,7 @@
 	<url>
 		<loc>https://www.siebentod.github.io/plato-theaetetus.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-04-22</lastmod>
+		<lastmod>2024-04-24</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/plato-symposium.html</loc>
@@ -49,6 +49,11 @@
 		<loc>https://www.siebentod.github.io/plato-politeia1.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-10-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-politeia.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-04-25</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/plato-philebus.html</loc>
