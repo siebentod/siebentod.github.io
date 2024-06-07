@@ -182,6 +182,11 @@ div a:hover {
   text-indent: 6% each-line;
 }
 
+.span-indented-big {
+  display: block;
+  text-indent: 10% each-line;
+}
+
 .bigBlank {
   display: block;
   margin-bottom: 0.4rem;
