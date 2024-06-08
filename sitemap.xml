@@ -3,7 +3,7 @@
 	<url>
 		<loc>https://www.siebentod.github.io</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-06-07</lastmod>
+		<lastmod>2024-06-08</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/zarathustra2007.html</loc>
@@ -129,6 +129,11 @@
 		<loc>https://www.siebentod.github.io/heraclitus.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2024-03-18</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/aristotle-metaphysica.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-06-08</lastmod>
 	</url>
 	<url>
 		<loc>https://www.siebentod.github.io/about.html</loc>
