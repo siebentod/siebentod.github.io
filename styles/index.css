@@ -35,20 +35,24 @@ i.fa-solid {
 }
 
 .mainText h2 {
-  background-color: rgb(160, 110, 110);
-  padding-top: 2px;
+  font-family: 'TTCommons', sans-serif;
+  background-color: rgb(177, 141, 141);
+  padding: 6px;
   box-shadow: 0 0 6px rgb(43, 0, 0);
+  border-radius: 10px;
+  margin-top: 14px;
 }
 
 section {
   margin: 0 1% 0 1%;
   font-size: 1rem;
-  background-color: rgb(111, 0, 37);
+  background-color: rgb(122, 0, 41);
   padding: 1rem;
   border: 1rem solid black;
   flex: 1;
   max-width: 30rem;
   position: relative;
+  border-radius: 10px;
 }
 
 /*section:not(:first-child) {
