@@ -35,12 +35,12 @@ i.fa-solid {
 }
 
 .mainText h2 {
-  font-family: 'TTCommons', sans-serif;
   background-color: rgb(177, 141, 141);
-  padding: 6px;
+  padding: 4px;
   box-shadow: 0 0 6px rgb(43, 0, 0);
   border-radius: 10px;
   margin-top: 14px;
+  font-size: 1.6rem;
 }
 
 section {
