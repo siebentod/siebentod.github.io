@@ -3,100 +3,40 @@
 	<url>
 		<loc>https://www.siebentod.github.io</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-06-08</lastmod>
+		<lastmod>2024-06-17</lastmod>
 	</url>
 	<url>
-		<loc>https://www.siebentod.github.io/about.html</loc>
+		<loc>https://www.siebentod.github.io/zarathustra2007.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-04-01</lastmod>
+		<lastmod>2024-04-18</lastmod>
 	</url>
 	<url>
-		<loc>https://www.siebentod.github.io/aristotle-metaphysica.html</loc>
+		<loc>https://www.siebentod.github.io/zarathustra1990.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-06-11</lastmod>
+		<lastmod>2024-04-18</lastmod>
 	</url>
 	<url>
-		<loc>https://www.siebentod.github.io/heraclitus.html</loc>
+		<loc>https://www.siebentod.github.io/zarathustra.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-06-16</lastmod>
+		<lastmod>2024-05-10</lastmod>
 	</url>
 	<url>
-		<loc>https://www.siebentod.github.io/horace.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-06-16</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/laertios-plato.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-06-16</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/parmenides.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-06-16</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/plato-alcibiades1.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-04-29</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/plato-cratylus.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-04-29</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/plato-critias.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-04-29</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/plato-crito.html</loc>
+		<loc>https://www.siebentod.github.io/werdenktabstract.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-10-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.siebentod.github.io/plato-gorgias.html</loc>
+		<loc>https://www.siebentod.github.io/plato-timaeus.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-10-22</lastmod>
+		<lastmod>2024-04-15</lastmod>
 	</url>
 	<url>
-		<loc>https://www.siebentod.github.io/plato-meno.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-04-29</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/plato-parmenides.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-04-29</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/plato-phaedo.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-04-29</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/plato-phaedrus.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-10-22</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/plato-philebus.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-05-02</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/plato-politeia.html</loc>
+		<loc>https://www.siebentod.github.io/plato-theaetetus.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2024-06-16</lastmod>
 	</url>
 	<url>
-		<loc>https://www.siebentod.github.io/plato-politeia1.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-10-22</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/plato-politikos.html</loc>
+		<loc>https://www.siebentod.github.io/plato-symposium.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2024-04-29</lastmod>
 	</url>
@@ -106,38 +46,108 @@
 		<lastmod>2024-04-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.siebentod.github.io/plato-symposium.html</loc>
+		<loc>https://www.siebentod.github.io/plato-politikos.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2024-04-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.siebentod.github.io/plato-theaetetus.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-06-16</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/plato-timaeus.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-04-15</lastmod>
-	</url>
-	<url>
-		<loc>https://www.siebentod.github.io/werdenktabstract.html</loc>
+		<loc>https://www.siebentod.github.io/plato-politeia1.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-10-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.siebentod.github.io/zarathustra.html</loc>
+		<loc>https://www.siebentod.github.io/plato-politeia.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-05-10</lastmod>
+		<lastmod>2024-06-16</lastmod>
 	</url>
 	<url>
-		<loc>https://www.siebentod.github.io/zarathustra1990.html</loc>
+		<loc>https://www.siebentod.github.io/plato-philebus.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-04-18</lastmod>
+		<lastmod>2024-05-02</lastmod>
 	</url>
 	<url>
-		<loc>https://www.siebentod.github.io/zarathustra2007.html</loc>
+		<loc>https://www.siebentod.github.io/plato-phaedrus.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-04-18</lastmod>
+		<lastmod>2023-10-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-phaedo.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-04-29</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-parmenides.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-04-29</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-meno.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-04-29</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-gorgias.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-10-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-crito.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-10-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-critias.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-04-29</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-cratylus.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-04-29</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/plato-alcibiades1.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-04-29</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/parmenides.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-06-16</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/laertios-plato.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-06-16</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/horace.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-06-16</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/heraclitus.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-06-16</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/aristotle-metaphysica.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-06-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/about.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-06-17</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/nietzsche-zarathustra.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-06-17</lastmod>
+	</url>
+	<url>
+		<loc>https://www.siebentod.github.io/test.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-06-17</lastmod>
 	</url>
 </urlset>

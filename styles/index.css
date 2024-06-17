@@ -24,6 +24,7 @@ i.fa-solid {
   padding-right: 4.5vw;
   padding-top: 4px;
   padding-bottom: 7px;
+  text-decoration: none;
 }
 
 .mainText {
@@ -35,18 +36,19 @@ i.fa-solid {
 }
 
 .mainText h2 {
-  background-color: rgb(177, 141, 141);
+  background-color: rgb(179, 184, 89);
   padding: 4px;
-  box-shadow: 0 0 6px rgb(43, 0, 0);
+  box-shadow: 0 0 6px rgb(56, 58, 24);
   border-radius: 10px;
   margin-top: 14px;
   font-size: 1.6rem;
+  color: black
 }
 
 section {
   margin: 0 1% 0 1%;
   font-size: 1rem;
-  background-color: rgb(122, 0, 41);
+  background-color: rgb(121, 123, 39);
   padding: 1rem;
   border: 1rem solid black;
   flex: 1;
@@ -108,6 +110,10 @@ a {
   text-decoration: none;
 }
 
+footer a, .mainTitle a {
+  text-decoration: none;
+}
+
 div a:hover {
   color: rgb(55, 55, 55);
 }
@@ -139,4 +145,33 @@ footer a:hover {
   color: black;
   font-weight: normal;
   text-align: left;
+}
+
+#buttonsSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+  margin-bottom: 1px;
+  gap:2px
+}
+
+.buttonPlato {
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  padding: 1px 12px;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  display: block;
+}
+
+.buttonPlato:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 2px 4px;
+  transform: translateY(-1px);
+}
+
+.buttonPlato:active {
+  box-shadow: none;
+  transform: translateY(0);
 }

@@ -8,6 +8,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/index.css" />
     <title>Anonymous Philosophy</title>
+    <script src="./scripts/index.js" defer></script>
     <meta name="description" content="Параллельные переводы философских текстов">
     <meta name="yandex-verification" content="c7dc9fb91b2631e8" />
     <meta name="google-site-verification" content="33sklVyO_Lh2var0e8O8FAEJJsPU9uf6iRmLrOHBHEY" />
@@ -20,7 +21,7 @@
     <div class="mainText">
     <section>
         <h2>Параллельные переводы</h2>
-        <ul>
+        <ul style="margin-bottom: 0;">
           <li><a href="./zarathustra.html">Ницше, Так говорил Заратустра</a> (отдельно <a href="./zarathustra1990.html">1990</a>, <a href="./zarathustra2007.html">2007</a>)</li>
           <li><a href="./werdenktabstract.html">Гегель, Кто мыслит абстрактно?</a></li>
           <br>
@@ -29,8 +30,15 @@
           <li><a href="./aristotle-metaphysica.html">Аристотель, Метафизика</a></li>
           <li><a href="./horace.html">Гораций, Оды</a></li>
           <br>
-          <li><a href="./laertios-plato.html">Диоген Лаэртский, Платон</a></li>
-          <li><a href="./plato-politeia.html">Платон, Государство</a></li>
+          <li><a href="./laertios-plato.html">Диоген Лаэртский, Платон</a></li></ul>
+          <div id="buttonsSection">
+          <!-- <div style="position: absolute; right:2px; display: flex; flex-direction:column"> -->
+              <button class="buttonPlato" id="Tetralogy">Тетралогии</button>
+              <button class="buttonPlato" id="Chronology">~Хронология</button>
+              <button class="buttonPlato" id="Iamblichus">«Канон Ямвлиха»</button>
+              <!-- <button class="buttonPlato" id="Length">Длина</button> -->
+            </div>
+          <div id="platoDialogues"><ul style="margin-top: 0;"><li><a href="./plato-politeia.html">Платон, Государство</a></li>
           <li style="margin-left: 16px"><a href="./plato-politeia1.html">Платон, Государство I</a></li>
           <li><a href="./plato-alcibiades1.html">Платон, Алкивиад I</a></li>
           <li><a href="./plato-theaetetus.html">Платон, Теэтет</a></li>
@@ -47,7 +55,7 @@
           <li><a href="./plato-sophistes.html">Платон, Софист</a></li>
           <li><a href="./plato-politikos.html">Платон, Политик</a></li>
           <li><a href="./plato-parmenides.html">Платон, Парменид</a></li>
-        </ul>
+        </ul></div>
         <h2>Похожие сайты (рекомендации)</h2>
         <ul>
           <li><a href="https://people.umass.edu/klement/tlp/tlp.html">«Логико-философский трактат» Витгенштейна <i class="fa-solid fa-arrow-up-right-from-square"></i></a> Deu + En + En</li>
