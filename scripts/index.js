@@ -1,20 +1,19 @@
-
-let Tetralogy = document.getElementById('Tetralogy')
-let Chronology = document.getElementById('Chronology')
-let Iamblichus = document.getElementById('Iamblichus')
+let Tetralogy = document.getElementById('Tetralogy');
+let Chronology = document.getElementById('Chronology');
+let Iamblichus = document.getElementById('Iamblichus');
 // let Length = document.getElementById('Length')
 
 Chronology.addEventListener('click', () => {
-    document.getElementById("platoDialogues").innerHTML = textChronology;
-})
+  document.getElementById('platoDialogues').innerHTML = textChronology;
+});
 
 Tetralogy.addEventListener('click', () => {
-    document.getElementById("platoDialogues").innerHTML = textTetralogy;
-})
+  document.getElementById('platoDialogues').innerHTML = textTetralogy;
+});
 
 Iamblichus.addEventListener('click', () => {
-    document.getElementById("platoDialogues").innerHTML = textIamblichus;
-})
+  document.getElementById('platoDialogues').innerHTML = textIamblichus;
+});
 
 // Length.addEventListener('click', () => {
 //     document.getElementById("platoDialogues").innerHTML = textLength;
@@ -54,7 +53,7 @@ let textChronology = `<div style="margin-top: 0; display: grid; grid-auto-flow: 
 <li><a href="./plato-timaeus.html">Тимей</a></li>
 <li><a href="./plato-critias.html">Критий</a></li>
 <li>Законы</li>
-</ul>`
+</ul>`;
 
 let textTetralogy = `<div style="margin-top: 0; display: grid; grid-auto-flow: column;
       grid-template-columns: 53%;">
@@ -114,7 +113,7 @@ let textTetralogy = `<div style="margin-top: 0; display: grid; grid-auto-flow: c
 <li>Законы, или О законодательстве</li>
 <li>Послезаконие, или Ночной совет, или Философ</li>
 <li>Тринадцать Писем</li>
-</ul></div>`
+</ul></div>`;
 
 let textIamblichus = `<ul><h3 style="margin-bottom:0; margin-top:2px">«Канон Ямвлиха»</h3>
 <li><a href="./plato-alcibiades1.html">Алкивиад I</a> – введение в философию, «о познании самого себя»</li>
@@ -123,6 +122,6 @@ let textIamblichus = `<ul><h3 style="margin-bottom:0; margin-top:2px">«Кано
 <li><a href="./plato-sophistes.html">Софист</a> и <a href="./plato-politikos.html">Политик</a> – «физические»</li>
 <li><a href="./plato-symposium.html">Пир</a> и <a href="./plato-phaedrus.html">Федр</a> – «теологические»</li>
 <li><a href="./plato-timaeus.html">Тимей</a> (о физическом мире) и <a href="./plato-parmenides.html">Парменид</a> (о сверхчувственной реальности)</li>
-<li><a href="./plato-philebus.html">Филеб</a> – о благе-первоначале</li></ul>`
+<li><a href="./plato-philebus.html">Филеб</a> – о благе-первоначале</li></ul>`;
 
 // let textLength = ``

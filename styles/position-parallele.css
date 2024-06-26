@@ -101,7 +101,7 @@ a {
   color: #fffff7;
 }
 
-.header .translator {
+.header__translator {
   font-style: italic;
   grid-column: 1;
   align-self: start;
