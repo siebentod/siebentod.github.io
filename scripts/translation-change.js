@@ -7,19 +7,22 @@ const jumpNeeded = document.getElementById('jumpNeeded') !== null;
 
 handleFirstTranslationButton();
 
-for (i = 1; i < tocTranslations.length; i++) {
-  if (isNumbered) {
+if (isNumbered) {
+  for (i = 1; i < tocTranslations.length; i++) {
     handleTranslationButtons(
       tocTranslations[i],
       endsOfColumns[i + 1],
       endsOfColumns[i + 2]
     );
-  } else
+  }
+} else {
+  for (i = 1; i < tocTranslations.length; i++) {
     handleTranslationButtons(
       tocTranslations[i],
       endsOfColumns[i],
       endsOfColumns[i + 1]
     );
+  }
 }
 
 function handleFirstTranslationButton() {
