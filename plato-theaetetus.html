@@ -25,8 +25,9 @@
       }
     </style>
     <link rel="stylesheet" href="styles/toc.css">
-    <script src="scripts/toc-plato.js" defer></script>
     <script src="scripts/toc.js" defer></script>
+    <script src="scripts/get-first-visible.js" defer></script>
+    <script src="scripts/translation-change.js" defer></script>
     <title>Теэтет, Платон</title>
     <meta name="description" content="«Теэтет» на русском, греческом и английском языках">
   </head>
@@ -41,7 +42,7 @@
     <ul>
       <li style="background: #f5f5db;text-align: center;
       border-radius: 10px;
-      padding: 2px 8px; border-width: 1px; border-style: solid; margin-bottom: 2px;"><a class="chooseTranslator" id="chooseRu" data-selected="true">Ru <i class="flag-icon flag-icon-ru"></i></a> / <a class="chooseTranslator" id="chooseEn">En <i class="flag-icon flag-icon-gb"></i></a></li>
+      padding: 2px 8px; border-width: 1px; border-style: solid; margin-bottom: 2px;"><a class="chooseTranslation" id="toc__translation1" data-selected="true" data-text='Перевод Т.В. Васильевой'>Ru <i class="flag-icon flag-icon-ru"></i></a> / <a class="chooseTranslation" id="toc__translation2" data-text='Перевод Harold N. Fowler'>En <i class="flag-icon flag-icon-gb"></i></a></li>
 
     <li><a href="#142a">142a Вступление</a>
     <li><span class="caret"></span><a href="#151e">151e Знание как восприятие</a>
@@ -2008,9 +2009,9 @@
 <p id="210a">210a</p>
 <p>210b</p>
 <p>210c</p>
-<p class="endOfColumn endOfColumn2">210d</p>
+<p class="endOfColumn endOfColumn2" id="endOfNumbers">210d</p>
 
-<span data-translation="ru" style="display: none">Перевод Т.В. Васильевой</span>
+
 <p style="font-style: italic;">Евклид, Терпсион, Сократ, Феодор, Теэтет</p>
 <p><b>Евклид.</b> Ты только что
 из деревни, Терпсион, или уже давно?
@@ -6673,7 +6674,7 @@ I.Willis, I.Lipsiae, 1963).
 поступали обвинения в бесчестии. О <i>Мелете</i> и его
 доносе на Сократа см.: Апология Сократа, прим. 1.</p>
 
-<span data-translation="en" style="display: none">Перевод Harold N. Fowler</span>
+
 <p style="font-style: italic;">Eucleides, Terpsion, Socrates, Theodorus, Theaetetus</p>
 <p><b>Eucleides:</b> Just in from the country, Terpsion, or did you come some time ago?
 <br><b>Terpsion:</b> Quite a while ago; and I was looking for you in the market-place and wondering that I could not find you.

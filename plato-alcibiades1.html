@@ -11,8 +11,9 @@
     <link rel="stylesheet" type="text/css" href="styles/position-parallele.css" />
     <style>.mainText {grid-template-columns: 50%;}</style>
     <link rel="stylesheet" href="styles/toc.css">
-    <script src="scripts/toc-plato.js" defer></script>
     <script src="scripts/toc.js" defer></script>
+    <script src="scripts/get-first-visible.js" defer></script>
+    <script src="scripts/translation-change.js" defer></script>
     <title>Алкивиад I, Платон</title>
     <meta name="description" content="«Алкивиад I» на русском, греческом и английском языках">
   </head>
@@ -24,8 +25,8 @@
 </div>
 
 <div class= "toc" id="tocContent">
-  <li><a class="chooseTranslator" id="chooseRu" data-selected="true">Ru <i class="flag-icon flag-icon-ru"></i></a></li>
-  <li><a class="chooseTranslator" id="chooseEn">En <i class="flag-icon flag-icon-gb"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation1" data-selected="true" data-text="Перевод С.Я. Шейнман-Топштейн">Ru <i class="flag-icon flag-icon-ru"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation2" data-text="Перевод W.R.M. Lamb">En <i class="flag-icon flag-icon-gb"></i></a></li>
   </div>
 
 <div class="mainText">
@@ -1341,9 +1342,8 @@
 <p>135b</p>
 <p>135c</p>
 <p>135d</p>
-<p class="endOfColumn endOfColumn2">135e</p>
+<p class="endOfColumn endOfColumn2" id="endOfNumbers">135e</p>
 
-<span data-translation="ru" style="display: none">Перевод С.Я. Шейнман-Топштейн</span>
 <p style="font-style: italic;">Сократ, Алкивиад</p>
 <p><b>Сократ.</b> Сын Клиния
 <span class="pop-up" id="a1"><a href="#a1c">1</a><!--<span class="pop-up-text"></span>--></span>, я полагаю, ты дивишься
@@ -4299,7 +4299,6 @@ Caesariensis Opera / Rec. G.Dindorf. Vol. II. Lipsiae,
 <br class="bigBlank"><a href="#a61" id="a61c">61</a> В этих словах как
 бы предсказывается будущая судьба Сократа и Алкивиада.</p>
 
-<span data-translation="en" style="display: none">Перевод W.R.M. Lamb</span>
 <p style="font-style: italic;">Socrates, Alcibiades</p>
 <p><b>Socrates:</b> Son of Cleinias, I think it must surprise you that I, the first of all your lovers, am the only one of them who has not given up his suit and thrown you over, and whereas they have all pestered you with their conversation I have not spoken one word to you for so many years. The cause of this has been nothing human, but a certain spiritual opposition,
 of whose power you shall be informed at some later time. However, it now opposes me no longer,</p>

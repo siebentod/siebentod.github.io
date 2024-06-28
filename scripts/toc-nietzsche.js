@@ -39,7 +39,7 @@ function clearEndsOfColumns() {
 }
 
 function unBoldAll() {
-  const translators = document.querySelectorAll('.chooseTranslator');
+  const translators = document.querySelectorAll('.chooseTranslation');
   translators.forEach((translator) => {
     translator.dataset.selected = false;
   });

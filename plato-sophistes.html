@@ -11,8 +11,9 @@
     <link rel="stylesheet" type="text/css" href="styles/position-parallele.css" />
     <style>.mainText {grid-template-columns: 50%;}</style>
     <link rel="stylesheet" href="styles/toc.css">
-    <script src="scripts/toc-plato.js" defer></script>
     <script src="scripts/toc.js" defer></script>
+    <script src="scripts/get-first-visible.js" defer></script>
+    <script src="scripts/translation-change.js" defer></script>
     <title>Софист, Платон</title>
     <meta name="description" content="«Софист» на русском, греческом и английском языках">
   </head>
@@ -24,13 +25,13 @@
 </div>
 
 <div class= "toc" id="tocContent">
-  <li><a class="chooseTranslator" id="chooseRu" data-selected="true">Ru <i class="flag-icon flag-icon-ru"></i></a></li>
-  <li><a class="chooseTranslator" id="chooseEn">En <i class="flag-icon flag-icon-gb"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation1" data-selected="true" data-text='Перевод С.А. Ананьина'>Ru <i class="flag-icon flag-icon-ru"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation2" data-text='Перевод Harold N. Fowler'>En <i class="flag-icon flag-icon-gb"></i></a></li>
   </div>
 
 <div class="mainText">
-  <span data-translation="ru" style="display: none">Перевод С.А. Ананьина</span>
-  <span data-translation="en" style="display: none">Перевод Harold N. Fowler</span>
+  
+  
 
 <p>Θεόδωρος, Σωκράτης, Ἐλεάτης Ξένος, Θεαίτητος</p>
 <p><b>Θεόδωρος:</b> κατὰ τὴν χθὲς ὁμολογίαν, ὦ Σώκρατες, ἥκομεν αὐτοί τε κοσμίως καὶ τόνδε τινὰ ξένον ἄγομεν, τὸ μὲν γένος ἐξ Ἐλέας, ἑταῖρον δὲ τῶν ἀμφὶ Παρμενίδην καὶ Ζήνωνα [ἑταίρων], μάλα δὲ ἄνδρα φιλόσοφον.
@@ -1872,7 +1873,7 @@
 <p>268a</p>
 <p>268b</p>
 <p>268c</p>
-<p class="endOfColumn endOfColumn2">268d</p>
+<p class="endOfColumn endOfColumn2" id="endOfNumbers">268d</p>
 
 
 <p style="font-style: italic;">Феодор, Сократ, Чужеземец из Элеи, Теэтет</p>

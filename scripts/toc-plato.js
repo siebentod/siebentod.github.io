@@ -1,29 +1,31 @@
+translChange();
+
 function translChange() {
-  let showRu = document.getElementById('chooseRu');
+  let showRu = document.getElementById('toc__translation1');
   showRu.addEventListener('click', function () {
-    //change translation
     clearEndsOfColumns();
     document.querySelector('.endOfRu').classList.add('hide');
-    //boldness
+
     unBoldAll();
-    document.getElementById('chooseRu').dataset.selected = true;
-    //change text in header
+    document.getElementById('toc__translation1').dataset.selected = true;
+
     let ruTranslator = document.querySelector('[data-translation="ru"]');
-    document.querySelector('.header__translator').innerHTML = ruTranslator.innerHTML;
+    document.querySelector('.header__translator').innerHTML =
+      ruTranslator.innerHTML;
   });
 
-  let showEn = document.getElementById('chooseEn');
+  let showEn = document.getElementById('toc__translation2');
   showEn.addEventListener('click', function () {
-    //change translation
     clearEndsOfColumns();
     document.querySelector('.endOfColumn2').classList.add('hide');
     document.querySelector('.endOfRu').classList.add('show');
-    //boldness
+
     unBoldAll();
-    document.getElementById('chooseEn').dataset.selected = true;
-    //change text in header
+    document.getElementById('toc__translation2').dataset.selected = true;
+
     let enTranslator = document.querySelector('[data-translation="en"]');
-    document.querySelector('.header__translator').innerHTML = enTranslator.innerHTML;
+    document.querySelector('.header__translator').innerHTML =
+      enTranslator.innerHTML;
   });
 }
 
@@ -35,10 +37,8 @@ function clearEndsOfColumns() {
 }
 
 function unBoldAll() {
-  const translators = document.querySelectorAll('.chooseTranslator');
+  const translators = document.querySelectorAll('.chooseTranslation');
   translators.forEach((translator) => {
     translator.dataset.selected = false;
   });
 }
-
-translChange();

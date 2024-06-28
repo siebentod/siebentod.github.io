@@ -11,8 +11,9 @@
     <link rel="stylesheet" type="text/css" href="styles/position-parallele.css" />
     <style>.mainText {grid-template-columns: 50%;}</style>
     <link rel="stylesheet" href="styles/toc.css">
-    <script src="scripts/toc-plato.js" defer></script>
     <script src="scripts/toc.js" defer></script>
+    <script src="scripts/get-first-visible.js" defer></script>
+    <script src="scripts/translation-change.js" defer></script>
     <title>Филеб, Платон</title>
     <meta name="description" content="«Филеб» на русском, греческом и английском языках">
   </head>
@@ -24,8 +25,8 @@
 </div>
 
 <div class= "toc" id="tocContent">
-  <li><a class="chooseTranslator" id="chooseRu" data-selected="true">Ru <i class="flag-icon flag-icon-ru"></i></a></li>
-  <li><a class="chooseTranslator" id="chooseEn">En <i class="flag-icon flag-icon-gb"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation1" data-selected="true" data-text='Перевод H.В. Самсонова'>Ru <i class="flag-icon flag-icon-ru"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation2" data-text='Перевод Harold N. Fowler'>En <i class="flag-icon flag-icon-gb"></i></a></li>
   </div>
 
 <div class="mainText">
@@ -1601,10 +1602,10 @@
     <p>66d</p>
     <p>66e</p>
     <p>67a</p>
-    <p class="endOfColumn endOfColumn2">67b</p>
+    <p class="endOfColumn endOfColumn2" id="endOfNumbers">67b</p>
 
 
-    <span data-translation="ru" style="display: none">Перевод H.В. Самсонова</span>
+    
     <p style="font-style: italic;">Сократ, Протарх, Филеб</p>
     <p><b>Сократ.</b> Посмотри-ка,
       Протарх, что за рассуждение собираешься ты перенять от
@@ -5557,7 +5558,7 @@ W.Paton, M.Pohlenz, W.Sieveking. Vol. III. Leipzig, 1972),
 совершенной (см.. напр.: <i>Еврипид.</i> Андромеда: fr. 148
 N. – Sn.). Ср.: Пир, прим. 19.</p>
 
-<span data-translation="en" style="display: none">Перевод Harold N. Fowler</span>
+
 <p style="font-style: italic;">Socrates, Protarchus, Philebus</p>
 <p><b>Socrates:</b> Observe, then, Protarchus, what the doctrine is which you are now to accept from Philebus, and what our doctrine is, against which you are to argue, if you do not agree with it.</p>
 

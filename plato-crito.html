@@ -11,8 +11,9 @@
     <link rel="stylesheet" type="text/css" href="styles/position-parallele.css" />
     <style>.mainText {grid-template-columns: 50%;}</style>
     <link rel="stylesheet" href="styles/toc.css">
-    <script src="scripts/toc-plato.js" defer></script>
     <script src="scripts/toc.js" defer></script>
+    <script src="scripts/get-first-visible.js" defer></script>
+    <script src="scripts/translation-change.js" defer></script>
     <title>Критон, Платон</title>
     <meta name="description" content="«Критон» на русском, греческом и английском языках">
   </head>
@@ -24,8 +25,8 @@
 </div>
 
 <div class= "toc" id="tocContent">
-  <li><a class="chooseTranslator" id="chooseRu" data-selected="true">Ru <i class="flag-icon flag-icon-ru"></i></a></li>
-  <li><a class="chooseTranslator" id="chooseEn">En <i class="flag-icon flag-icon-gb"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation1" data-selected="true" data-text="Перевод М.С. Соловьева">Ru <i class="flag-icon flag-icon-ru"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation2" data-text="Перевод Harold N. Fowler">En <i class="flag-icon flag-icon-gb"></i></a></li>
   </div>
 
 <div class="mainText">
@@ -301,12 +302,9 @@
 <p>54b</p>
 <p>54c</p>
 <p>54d</p>
-<p class="endOfColumn endOfColumn2">54e</p>
+<p class="endOfColumn endOfColumn2" id="endOfNumbers">54e</p>
 
 
-
-
-<span data-translation="ru" style="display: none">Перевод М.С. Соловьева</span>
 <p style="font-style: italic;"><i>Сократ, Критон</i></p>
 
 <p> <b>Сократ.</b> Что это ты
@@ -1161,7 +1159,6 @@
   оргиях под звуки флейт и тимпанов.</p>
 
 
-  <span data-translation="en" style="display: none">Перевод Harold N. Fowler</span>
 <p style="font-style: italic;">Socrates, Crito</p>
 <p><b>Socrates:</b> Why have you come at this time, Crito? Or isn't it still early?
 <br><b>Crito:</b> Yes, very early.

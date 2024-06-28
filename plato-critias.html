@@ -11,8 +11,9 @@
     <link rel="stylesheet" type="text/css" href="styles/position-parallele.css" />
     <style>.mainText {grid-template-columns: 50%;}</style>
     <link rel="stylesheet" href="styles/toc.css">
-    <script src="scripts/toc-plato.js" defer></script>
     <script src="scripts/toc.js" defer></script>
+    <script src="scripts/get-first-visible.js" defer></script>
+    <script src="scripts/translation-change.js" defer></script>
     <title>Критий, Платон</title>
     <meta name="description" content="«Критий» на русском, греческом и английском языках">
   </head>
@@ -24,8 +25,8 @@
 </div>
 
 <div class= "toc" id="tocContent">
-  <li><a class="chooseTranslator" id="chooseRu" data-selected="true">Ru <i class="flag-icon flag-icon-ru"></i></a></li>
-  <li><a class="chooseTranslator" id="chooseEn">En <i class="flag-icon flag-icon-gb"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation1" data-selected="true" data-text='Перевод С. Аверинцева'>Ru <i class="flag-icon flag-icon-ru"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation2" data-text='Перевод W.R.M. Lamb'>En <i class="flag-icon flag-icon-gb"></i></a></li>
   </div>
 
 <div class="mainText">
@@ -277,11 +278,9 @@
 <p>120e</p>
 <p>121a</p>
 <p>121b</p>
-<p class="endOfColumn endOfColumn2">121c</p>
+<p class="endOfColumn endOfColumn2" id="endOfNumbers">121c</p>
 
-
-<span data-translation="ru" style="display: none">Перевод С. Аверинцева</span>
-<p style="font-style: italic;">Тимей, Критий, Сократ, Гермократ</p>
+<p style="font-style: italic;">Тимей, Критий, Сократ, Гермократ</p>
 <p><b>Тимей.</b> Ах, Сократ, как
 радуется путник, переведя дух после долгого пути, такую же
 радость чувствую сейчас и я, доведя до конца свое
@@ -1248,9 +1247,7 @@ I, гл. XXII. Собеседники Крития именуются (108d) з�
 мольбы матери-Земли, Геи, к Зевсу покарать людей за их
 нечестие (см. Ил. I 5).</p>
 
-
-<span data-translation="en" style="display: none">Перевод W.R.M. Lamb</span>
-<p style="font-style: italic;">Timaeus, Critias, Socrates, Hermocrates</p>
+<p style="font-style: italic;">Timaeus, Critias, Socrates, Hermocrates</p>
 <p><b>Timaeus:</b> How gladly do I now welcome my release, Socrates, from my protracted discourse, even as a traveller who takes his rest after a long journey! And I make my prayer to that God who has recently been created by our speech
 (although in reality created of old), that he will grant to us the conservation of all our sayings that have been rightly said,</p>
 

@@ -11,8 +11,9 @@
     <link rel="stylesheet" type="text/css" href="styles/position-parallele.css" />
     <style>.mainText {grid-template-columns: 50%;}</style>
     <link rel="stylesheet" href="styles/toc.css">
-    <script src="scripts/toc-plato.js" defer></script>
     <script src="scripts/toc.js" defer></script>
+    <script src="scripts/get-first-visible.js" defer></script>
+    <script src="scripts/translation-change.js" defer></script>
     <title>Пир, Платон</title>
     <meta name="description" content="«Пир» на русском, греческом и английском языках">
   </head>
@@ -24,14 +25,13 @@
 </div>
 
 <div class= "toc" id="tocContent">
-  <li><a class="chooseTranslator" id="chooseRu" data-selected="true">Ru <i class="flag-icon flag-icon-ru"></i></a></li>
-  <li><a class="chooseTranslator" id="chooseEn">En <i class="flag-icon flag-icon-gb"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation1" data-selected="true" data-text='Перевод С.К. Апта'>Ru <i class="flag-icon flag-icon-ru"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation2" data-text='Перевод Harold N. Fowler'>En <i class="flag-icon flag-icon-gb"></i></a></li>
   </div>
 
 <div class="mainText">
 
-<span data-translation="ru" style="display: none">Перевод С.К. Апта</span>
-<span data-translation="en" style="display: none">Перевод Harold N. Fowler</span>
+
 
 <p>Ἀπολλόδωρος, Ἑταῖρος</p>
 <p><b>Ἀπολλόδωρος:</b> δοκῶ μοι περὶ ὧν πυνθάνεσθε οὐκ ἀμελέτητος εἶναι. καὶ γὰρ ἐτύγχανον πρῴην εἰς ἄστυ οἴκοθεν ἀνιὼν Φαληρόθεν: τῶν οὖν γνωρίμων τις ὄπισθεν κατιδών με πόρρωθεν ἐκάλεσε, καὶ παίζων ἅμα τῇ κλήσει, “ὦ Φαληρεύς,” ἔφη, “οὗτος Ἀπολλόδωρος, οὐ περιμένεις;” κἀγὼ ἐπιστὰς περιέμεινα. καὶ ὅς, “Ἀπολλόδωρε,” ἔφη, “καὶ μὴν καὶ ἔναγχός σε ἐζήτουν βουλόμενος διαπυθέσθαι τὴν Ἀγάθωνος συνουσίαν</p>
@@ -1204,7 +1204,7 @@
 <p>223a</p>
 <p>223b</p>
 <p>223c</p>
-<p class="endOfColumn endOfColumn2">223d</p>
+<p class="endOfColumn endOfColumn2" id="endOfNumbers">223d</p>
 
 <p style="font-style: italic;">Аполлодор и его друг</p>
 <p>К вашим расспросам

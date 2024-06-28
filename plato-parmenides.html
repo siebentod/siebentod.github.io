@@ -11,8 +11,9 @@
     <link rel="stylesheet" type="text/css" href="styles/position-parallele.css" />
     <style>.mainText {grid-template-columns: 50%;}</style>
     <link rel="stylesheet" href="styles/toc.css">
-    <script src="scripts/toc-plato.js" defer></script>
     <script src="scripts/toc.js" defer></script>
+    <script src="scripts/get-first-visible.js" defer></script>
+    <script src="scripts/translation-change.js" defer></script>
     <title>Парменид, Платон</title>
     <meta name="description" content="«Парменид» на русском, греческом и английском языках">
   </head>
@@ -24,13 +25,12 @@
 </div>
 
 <div class= "toc" id="tocContent">
-  <li><a class="chooseTranslator" id="chooseRu" data-selected="true">Ru <i class="flag-icon flag-icon-ru"></i></a></li>
-  <li><a class="chooseTranslator" id="chooseEn">En <i class="flag-icon flag-icon-gb"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation1" data-selected="true" data-text='Перевод H.И. Томасова'>Ru <i class="flag-icon flag-icon-ru"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation2" data-text='Перевод Harold N. Fowler'>En <i class="flag-icon flag-icon-gb"></i></a></li>
   </div>
 
 <div class="mainText">
-<span data-translation="ru" style="display: none">Перевод H.И. Томасова</span>
-<span data-translation="en" style="display: none">Перевод Harold N. Fowler</span>
+
 
 <p>Κέφαλος, Ἀδείμαντος, Ἀντιφῶν, Γλαύκων, Πυθόδωρος, Σωκράτης, Ζήνων, Παρμενίδης, Ἀριστοτέλης</p>
   <p><b>Κέφαλος:</b> ἐπειδὴ Ἀθήναζε οἴκοθεν ἐκ Κλαζομενῶν ἀφικόμεθα, κατ' ἀγορὰν ἐνετύχομεν Ἀδειμάντῳ τε καὶ Γλαύκωνι: καί μου λαβόμενος τῆς χειρὸς ὁ Ἀδείμαντος, Χαῖρ', ἔφη, ὦ Κέφαλε, καὶ εἴ του δέῃ τῶν τῇδε ὧν ἡμεῖς δυνατοί, φράζε.
@@ -1822,7 +1822,7 @@
 <p>165e</p>
 <p>166a</p>
 <p>166b</p>
-<p class="endOfColumn endOfColumn2">166c</p>
+<p class="endOfColumn endOfColumn2" id="endOfNumbers">166c</p>
 
 <p style="font-style: italic;">Кефал, Адимант, Антифонт, Главкон, Пифодор, Сократ, Зенон, Парменид, Аристотель</p>
 <p><b>Кефал.</b> Когда мы прибыли

@@ -1,89 +1,77 @@
-function translChange() {
-  const showTranslation1 = document.getElementById('toc__translation1');
-  showTranslation1.addEventListener('click', function () {
-    
-    //change translation
-    clearEndsOfColumns();
-    document.querySelector('.endOfTranslation1').classList.add('hide');
-    //boldness
-    unBoldAll();
-    showTranslation1.dataset.selected = true;
-    //change text in header
-    document.querySelector('.header__translator').innerHTML = showTranslation1.dataset.text;
-    
-  });
- 
-  const showTranslation2 = document.getElementById('toc__translation2');
-  showTranslation2.addEventListener('click', function () {
-        
-    //change translation
-    clearEndsOfColumns();
-    document.querySelector('.endOfColumn2').classList.add('hide');
-    document.querySelector('.endOfTranslation1').classList.add('show');
-    document.querySelector('.endOfTranslation2').classList.add('hideFurther');
-    //boldness
-    unBoldAll();
-    showTranslation2.dataset.selected = true;
-    //change text in header
-    document.querySelector('.header__translator').innerHTML = showTranslation2.dataset.text;
-    
-  });
+const endsOfColumns = Array.from(document.querySelectorAll('.endOfColumn'));
+const tocTranslations = Array.from(
+  document.querySelectorAll('.chooseTranslation')
+);
+const isNumbered = document.getElementById('endOfNumbers') !== null;
+const jumpNeeded = document.getElementById('jumpNeeded') !== null;
 
-  let showTranslation3 = document.getElementById('toc__translation3');
-  showTranslation3.addEventListener('click', function () {
-        
-    //change translation
-    clearEndsOfColumns();
-    document.querySelector('.endOfColumn2').classList.add('hide');
-    document.querySelector('.endOfTranslation2').classList.add('show');
-    document.querySelector('.endOfTranslation3').classList.add('hideFurther');
-    //boldness
-    unBoldAll();
-    showTranslation3.dataset.selected = true;
-    //change text in header
-    document.querySelector('.header__translator').innerHTML = showTranslation3.dataset.text;
-    
-  });
+handleFirstTranslationButton();
 
-  let showTranslation4 = document.getElementById('toc__translation4');
-  showTranslation4.addEventListener('click', function () {
-        
-    //change translation
-    clearEndsOfColumns();
-    document.querySelector('.endOfColumn2').classList.add('hide');
-    // document.querySelector(".endOfDyn").classList.add("hide");
-    document.querySelector('.endOfTranslation3').classList.add('show');
-    //boldness
-    unBoldAll();
-    showTranslation4.dataset.selected = true;
-    //change text in header
-    document.querySelector('.header__translator').innerHTML = showTranslation4.dataset.text;
-    
-  });
+for (i = 1; i < tocTranslations.length; i++) {
+  if (isNumbered) {
+    handleTranslationButtons(
+      tocTranslations[i],
+      endsOfColumns[i + 1],
+      endsOfColumns[i + 2]
+    );
+  } else
+    handleTranslationButtons(
+      tocTranslations[i],
+      endsOfColumns[i],
+      endsOfColumns[i + 1]
+    );
+}
 
-  //   let customToc = document.getElementById("tocContent");
-  //   classList.remove("active");
-  //     toggler[i].classList.remove("caret-down");
-  //   if (customToc.style.display === "none") {
-  //     customToc.style.display = "inline-block";
-  //   } else {
-  //     customToc.style.display = "none";
-  //     closeTrees();
-  //   }
+function handleFirstTranslationButton() {
+  tocTranslations[0].addEventListener('click', function () {
+    clearEndsOfColumns();
+    if (isNumbered) {
+      endsOfColumns[2].classList.add('hide');
+    } else {
+      endsOfColumns[1].classList.add('hide');
+    }
+
+    unBoldAll();
+    tocTranslations[0].dataset.selected = true;
+    document.querySelector('.header__translator').innerHTML =
+      tocTranslations[0].dataset.text;
+    if (jumpNeeded) {
+      let first = getFirstVisible();
+      first.scrollIntoView();
+    }
+  });
+}
+
+function handleTranslationButtons(translation, endOfColumn, nextEndOfColumn) {
+  translation.addEventListener('click', function () {
+    clearEndsOfColumns();
+    if (isNumbered) {
+      endsOfColumns[1].classList.add('hide');
+    } else {
+      endsOfColumns[0].classList.add('hide');
+    }
+    endOfColumn.classList.add('show');
+    nextEndOfColumn.classList.add('hideFurther');
+
+    unBoldAll();
+    translation.dataset.selected = true;
+    document.querySelector('.header__translator').innerHTML =
+      translation.dataset.text;
+    if (jumpNeeded) {
+      let first = getFirstVisible();
+      first.scrollIntoView();
+    }
+  });
 }
 
 function clearEndsOfColumns() {
-  const endsOfColumns = document.querySelectorAll('.endOfColumn');
   endsOfColumns.forEach((endOfColumn) => {
     endOfColumn.classList.remove('hide', 'show', 'hideFurther');
   });
 }
 
 function unBoldAll() {
-  const tocTranslators = document.querySelectorAll('.chooseTranslator');
-  tocTranslators.forEach((translator) => {
-   translator.dataset.selected = false;
+  tocTranslations.forEach((translation) => {
+    translation.dataset.selected = false;
   });
 }
-
-translChange();

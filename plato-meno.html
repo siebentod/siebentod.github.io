@@ -11,8 +11,9 @@
     <link rel="stylesheet" type="text/css" href="styles/position-parallele.css" />
     <style>.mainText {grid-template-columns: 50%;}</style>
     <link rel="stylesheet" href="styles/toc.css">
-    <script src="scripts/toc-plato.js" defer></script>
     <script src="scripts/toc.js" defer></script>
+    <script src="scripts/get-first-visible.js" defer></script>
+    <script src="scripts/translation-change.js" defer></script>
     <title>Менон, Платон</title>
     <meta name="description" content="«Менон» на русском, греческом и английском языках">
   </head>
@@ -24,8 +25,8 @@
 </div>
 
 <div class= "toc" id="tocContent">
-  <li><a class="chooseTranslator" id="chooseRu" data-selected="true">Ru <i class="flag-icon flag-icon-ru"></i></a></li>
-  <li><a class="chooseTranslator" id="chooseEn">En <i class="flag-icon flag-icon-gb"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation1" data-selected="true" data-text='Перевод С.А. Ошерова'>Ru <i class="flag-icon flag-icon-ru"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation2" data-text='Перевод W.R.M. Lamb'>En <i class="flag-icon flag-icon-gb"></i></a></li>
   </div>
 
 <div class="mainText">
@@ -1485,9 +1486,9 @@
 <p>99e</p>
 <p>100a</p>
 <p>100b</p>
-<p class="endOfColumn endOfColumn2">100c</p>
+<p class="endOfColumn endOfColumn2" id="endOfNumbers">100c</p>
 
-<span data-translation="ru" style="display: none">Перевод С.А. Ошерова</span>
+
 <p style="font-style: italic;">Менон, Сократ, раб Менона, Анит</p>
 <p><b>Менон.</b> Что ты скажешь
 мне, Сократ: можно ли научиться добродетели? Или ей нельзя
@@ -3903,7 +3904,7 @@ Berolini, 1887) дается ссылка на стихи из "Еврисфея
 <br class="bigBlank"><a href="#a47" id="a47c">47</a> Одиссея X 494 сл.
 О <i>Тиресии</i> см.: Алкивиад II, прим. 17.</p>
 
-<span data-translation="en" style="display: none">Перевод W.R.M. Lamb</span>
+
 <p style="font-style: italic;">Meno, Socrates, Meno's Boy, Anytus</p>
 <p><b>Meno:</b> Can you tell me, Socrates, whether virtue can be taught, or is acquired by practice, not teaching? Or if neither by practice nor by learning, whether it comes to mankind by nature or in some other way?
 <br><b>Socrates:</b> Meno, of old the Thessalians were famous and admired among the Greeks for their riding and</p>

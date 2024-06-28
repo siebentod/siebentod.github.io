@@ -11,8 +11,9 @@
     <link rel="stylesheet" type="text/css" href="styles/position-parallele.css" />
     <style>.mainText {grid-template-columns: 50%;}</style>
     <link rel="stylesheet" href="styles/toc.css">
-    <script src="scripts/toc-plato.js" defer></script>
     <script src="scripts/toc.js" defer></script>
+    <script src="scripts/get-first-visible.js" defer></script>
+    <script src="scripts/translation-change.js" defer></script>
     <title>Федон, Платон</title>
     <meta name="description" content="«Федон» на русском, греческом и английском языках">
   </head>
@@ -24,13 +25,11 @@
 </div>
 
 <div class= "toc" id="tocContent">
-  <li><a class="chooseTranslator" id="chooseRu" data-selected="true">Ru <i class="flag-icon flag-icon-ru"></i></a></li>
-  <li><a class="chooseTranslator" id="chooseEn">En <i class="flag-icon flag-icon-gb"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation1" data-selected="true" data-text='Перевод С.П. Маркиша'>Ru <i class="flag-icon flag-icon-ru"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation2" data-text='Перевод W.R.M. Lamb'>En <i class="flag-icon flag-icon-gb"></i></a></li>
   </div>
 
-<span data-translation="ru" style="display: none">Перевод С.П. Маркиша</span>
-<span data-translation="en" style="display: none">Перевод W.R.M. Lamb</span>
-
+
 <div class="mainText">
 <p>Ἐχεκράτης, Φαίδων</p>
 <p><b>Ἐχεκράτης:</b> αὐτός, ὦ Φαίδων, παρεγένου Σωκράτει ἐκείνῃ τῇ ἡμέρᾳ ᾗ τὸ φάρμακον ἔπιεν ἐν τῷ δεσμωτηρίῳ, ἢ ἄλλου του ἤκουσας;
@@ -2041,7 +2040,7 @@
 <p>117c</p>
 <p>117d</p>
 <p>117e</p>
-<p class="endOfColumn endOfColumn2">118a</p>
+<p class="endOfColumn endOfColumn2" id="endOfNumbers">118a</p>
 
 <p style="font-style: italic;">Эхекрат, Федон</p>
 <p><b>Эхекрат.</b> Скажи, Федон, ты сам был подле Сократа в тот день,

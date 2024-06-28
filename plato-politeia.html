@@ -25,8 +25,9 @@
       }
     </style>
     <link rel="stylesheet" href="styles/toc.css">
-    <script src="scripts/toc-plato.js" defer></script>
     <script src="scripts/toc.js" defer></script>
+    <script src="scripts/get-first-visible.js" defer></script>
+    <script src="scripts/translation-change.js" defer></script>
     <title>Государство, Платон</title>
     <meta name="description" content="«Государство» на русском, греческом и английском языках">
   </head>
@@ -41,7 +42,7 @@
     <ul>
       <li style="background: #f5f5db;text-align: center;
       border-radius: 10px;
-      padding: 2px 8px; border-width: 1px; border-style: solid; margin-bottom: 2px;"><a class="chooseTranslator" id="chooseRu" data-selected="true">Ru <i class="flag-icon flag-icon-ru"></i></a> / <a class="chooseTranslator" id="chooseEn">En <i class="flag-icon flag-icon-gb"></i></a></li>
+      padding: 2px 8px; border-width: 1px; border-style: solid; margin-bottom: 2px;"><a class="chooseTranslation" id="toc__translation1" data-selected="true" data-text='Перевод А.Н. Егунова'>Ru <i class="flag-icon flag-icon-ru"></i></a> / <a class="chooseTranslation" id="toc__translation2" data-text='Перевод Paul Shorey'>En <i class="flag-icon flag-icon-gb"></i></a></li>
 
     <li><a href="#327a">327a Книга I</a></li>
     <li><a href="#357a">357a Книга II</a></li>
@@ -56,8 +57,8 @@
     </ul>
   </div>
 
-  <span data-translation="ru" style="display: none">Перевод А.Н. Егунова</span>
-  <span data-translation="en" style="display: none">Перевод Paul Shorey</span>
+  
+  
 
 <div class="mainText">
 
@@ -11751,7 +11752,7 @@
 <p>621a</p>
 <p>621b</p>
 <p>621c</p>
-<p class="endOfColumn endOfColumn2">621d</p>
+<p class="endOfColumn endOfColumn2" id="endOfNumbers">621d</p>
 
 
 <p style="font-style: italic;">Сократ, Главкон, Полемарх, Фрасимах, Адимант, Кефал</p>

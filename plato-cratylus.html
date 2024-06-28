@@ -11,8 +11,9 @@
     <link rel="stylesheet" type="text/css" href="styles/position-parallele.css" />
     <style>.mainText {grid-template-columns: 47%;}</style>
     <link rel="stylesheet" href="styles/toc.css">
-    <script src="scripts/toc-plato.js" defer></script>
     <script src="scripts/toc.js" defer></script>
+    <script src="scripts/get-first-visible.js" defer></script>
+    <script src="scripts/translation-change.js" defer></script>
     <title>Кратил, Платон</title>
     <meta name="description" content="«Кратил» на русском, греческом и английском языках">
   </head>
@@ -24,13 +25,10 @@
 </div>
 
 <div class= "toc" id="tocContent">
-  <li><a class="chooseTranslator" id="chooseRu" data-selected="true">Ru <i class="flag-icon flag-icon-ru"></i></a></li>
-  <li><a class="chooseTranslator" id="chooseEn">En <i class="flag-icon flag-icon-gb"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation1" data-selected="true" data-text='Перевод Т.В. Васильевой'>Ru <i class="flag-icon flag-icon-ru"></i></a></li>
+  <li><a class="chooseTranslation" id="toc__translation2" data-text='Перевод Harold N. Fowler'>En <i class="flag-icon flag-icon-gb"></i></a></li>
   </div>
-  
 
-<span data-translation="ru" style="display: none">Перевод Т.В. Васильевой</span>
-<span data-translation="en" style="display: none">Перевод Harold N. Fowler</span>
 
 <div class="mainText">
 
@@ -1569,7 +1567,7 @@
 <p>440b</p>
 <p>440c</p>
 <p>440d</p>
-<p class="endOfColumn endOfColumn2">440e</p>
+<p class="endOfColumn endOfColumn2" id="endOfNumbers">440e</p>
 
 
 <p style="font-style: italic;">Гермоген, Кратил, Сократ</p>
