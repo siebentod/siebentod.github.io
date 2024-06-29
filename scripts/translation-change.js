@@ -8,7 +8,7 @@ const jumpNeeded = document.getElementById('jumpNeeded') !== null;
 handleFirstTranslationButton();
 
 if (isNumbered) {
-  for (i = 1; i < tocTranslations.length; i++) {
+  for (let i = 1; i < tocTranslations.length; i++) {
     handleTranslationButtons(
       tocTranslations[i],
       endsOfColumns[i + 1],
@@ -16,7 +16,7 @@ if (isNumbered) {
     );
   }
 } else {
-  for (i = 1; i < tocTranslations.length; i++) {
+  for (let i = 1; i < tocTranslations.length; i++) {
     handleTranslationButtons(
       tocTranslations[i],
       endsOfColumns[i],
