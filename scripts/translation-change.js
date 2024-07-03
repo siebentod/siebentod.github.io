@@ -4,6 +4,7 @@ const tocTranslations = Array.from(
 );
 const isNumbered = document.getElementById('endOfNumbers') !== null;
 const jumpNeeded = document.getElementById('jumpNeeded') !== null;
+let first;
 
 handleFirstTranslationButton();
 
@@ -27,9 +28,7 @@ if (isNumbered) {
 
 function handleFirstTranslationButton() {
   tocTranslations[0].addEventListener('click', function () {
-    if (jumpNeeded) {
-      var first = getFirstVisible();
-    }
+    jumpNeeded && (first = getFirstVisible());
     clearEndsOfColumns();
     if (isNumbered) {
       endsOfColumns[2].classList.add('hide');
@@ -41,17 +40,16 @@ function handleFirstTranslationButton() {
     tocTranslations[0].dataset.selected = true;
     document.querySelector('.header__translator').innerHTML =
       tocTranslations[0].dataset.text;
-    if (jumpNeeded) {
+    jumpNeeded &&
+      first.offsetTop > 5000 &&
+      first.id !== 'titel' &&
       first.scrollIntoView();
-    }
   });
 }
 
 function handleTranslationButtons(translation, endOfColumn, nextEndOfColumn) {
   translation.addEventListener('click', function () {
-    if (jumpNeeded) {
-      var first = getFirstVisible();
-    }
+    jumpNeeded && (first = getFirstVisible());
     clearEndsOfColumns();
     if (isNumbered) {
       endsOfColumns[1].classList.add('hide');
@@ -65,9 +63,10 @@ function handleTranslationButtons(translation, endOfColumn, nextEndOfColumn) {
     translation.dataset.selected = true;
     document.querySelector('.header__translator').innerHTML =
       translation.dataset.text;
-    if (jumpNeeded) {
+    jumpNeeded &&
+      first.offsetTop > 5000 &&
+      first.id !== 'titel' &&
       first.scrollIntoView();
-    }
   });
 }
 
