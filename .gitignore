@@ -1,5 +1,6 @@
 /.vscode
 /node_modules
+/inwork
 package*
 package*
 *prettier*
