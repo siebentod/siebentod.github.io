@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "calibri", sans-serif;
+  font-family: 'calibri', sans-serif;
   margin: 0;
   background-color: black;
 }
@@ -18,10 +18,10 @@ i.fa-solid {
   font-size: 48px;
   text-align: right;
   color: #fffff7;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   background-color: black;
   box-shadow: 0 0 0.8em rgba(0, 0, 0, 0.15);
-  padding-right: 4.5vw;
+  padding-right: 4.5dvw;
   padding-top: 4px;
   padding-bottom: 7px;
   text-decoration: none;
@@ -42,13 +42,14 @@ i.fa-solid {
   border-radius: 10px;
   margin-top: 14px;
   font-size: 1.6rem;
-  color: black
+  color: black;
 }
 
 section {
+  color: #111213;
   margin: 0 1% 0 1%;
   font-size: 1rem;
-  background-color: rgb(163, 63, 63);
+  background-color: #5e636e;
   padding: 1rem;
   border: 1rem solid black;
   flex: 1;
@@ -106,11 +107,12 @@ footer p {
 }
 
 a {
-  color: #ffffff;
+  color: #fffff7;
   text-decoration: none;
 }
 
-footer a, .mainTitle a {
+footer a,
+.mainTitle a {
   text-decoration: none;
 }
 
@@ -136,7 +138,7 @@ footer a:hover {
   line-height: 1.3;
   font-size: 0.813rem;
   width: max-content;
-  max-width: 30vw;
+  max-width: 30dvw;
   background-color: white;
   position: absolute;
   border: 2px solid black;
@@ -152,17 +154,27 @@ footer a:hover {
   justify-content: center;
   margin-top: 7px;
   margin-bottom: 1px;
-  gap:2px
+  gap: 2px;
 }
 
 .buttonPlato {
   background-color: #000000;
   border: 1px solid #ffffff;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family:
+    Roobert,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Helvetica,
+    Arial,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol';
   padding: 1px 12px;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
   display: block;
 }
 

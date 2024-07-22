@@ -15,13 +15,13 @@
   display: inline-block;
   position: fixed;
   /* top: 80px; */
-  top: calc(11px + 8vh);
+  top: calc(11px + 8dvh);
   background-color: #fffff7;
   left: 0;
   overflow: auto;
   /*    resize: horizontal;*/
-  max-width: calc(70px + 9vw); /*Проверить на мобильнике */
-  max-height: 85vh;
+  max-width: calc(70px + 9dvw); /*Проверить на мобильнике */
+  max-height: 85dvh;
   border: 1px solid #ccc;
   border-radius: 16px;
   border-left: none;
@@ -61,12 +61,12 @@ li {
 }
 
 #tocButton i {
-  width: calc(7px + 0.7vw);
-  height: calc(7px + 0.7vw);
+  width: calc(7px + 0.7dvw);
+  height: calc(7px + 0.7dvw);
   border-radius: 50%;
-  padding: calc(7px + 0.7vw);
-  left: 0.9vw;
-  top: 1.69vh;
+  padding: calc(7px + 0.7dvw);
+  left: 0.9dvw;
+  top: 1.69dvh;
   background-color: black;
   color: #fffff7;
   position: fixed;
